@@ -1,0 +1,14 @@
+# Temporary files
+.#~
+*.*~
+~.#~
+/.#~
+
+# databases
+db.*
+*.sqlite3
+.idea/
+
+venv/
+__pycache__/
+debug.log
