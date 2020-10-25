@@ -11,7 +11,9 @@ FILTERS = {
 }
 BASE_URL = 'https://www.amazon.de/'
 
-
+'''
+selenium and chromedriver default setting for scrapping a website
+'''
 def get_chrome_web_driver(options):
     return webdriver.Chrome('./chromedriver', chrome_options=options)
 
